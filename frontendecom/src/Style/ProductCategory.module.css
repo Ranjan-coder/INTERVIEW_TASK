@@ -1,0 +1,18 @@
+.productCategoryContainer {
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .categoryTitle {
+    font-size: 2rem;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .productList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  

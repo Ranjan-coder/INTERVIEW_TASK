@@ -1,0 +1,111 @@
+.checkoutContainer {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cartItems {
+    margin-bottom: 20px;
+  }
+  
+  .cartItem {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .productImage {
+    width: 100px;
+    height: auto;
+    border-radius: 5px;
+    margin-right: 15px;
+  }
+  
+  .itemDetails {
+    flex: 1;
+  }
+  
+  .quantityControls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantityControls button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .quantityControls button:hover {
+    background-color: #0056b3;
+  }
+  
+  .removeButton {
+    background-color: #dc3545;
+  }
+  
+  .removeButton:hover {
+    background-color: #c82333;
+  }
+  
+  .placeOrderButton {
+    padding: 12px 24px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .placeOrderButton:hover {
+    background-color: #218838;
+  }
+  
+  .emptyCartContainer {
+    padding: 20px;
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+    background-color: #f8f8f8;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .emptyCartContainer h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .emptyCartContainer p {
+    font-size: 18px;
+    margin-bottom: 20px;
+  }
+  
+  .addItemsButton {
+    padding: 12px 24px;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .addItemsButton:hover {
+    background-color: #0056b3;
+  }
+  
